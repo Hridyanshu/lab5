@@ -5,13 +5,15 @@ class student
 	public:
 		string name;
 		int roll_no;
+		int SAPID;
 };
 int main()
 {
 	student obj;
 	obj.name="XYZ";
 	obj.roll_no=123;
-	cout<<obj.name<<endl<<obj.roll_no<<endl;
+	obj.SAPID=123456;
+	cout<<obj.name<<endl<<obj.roll_no<<endl<<obj.SAPID;
 	return 0;
 }
 
