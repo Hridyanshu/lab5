@@ -3,8 +3,8 @@ using namespace std;
 class student
 {
 	public:
-		string name;
-		int roll_no;
+		string name;// Name of the student
+		int roll_no;// Roll number of the student
 		int SAPID;
 };
 int main()
